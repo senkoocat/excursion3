@@ -9,13 +9,26 @@ html {
   }
   body {
       background-color: black;
+      text-align: center;
   }
 header {
     font-size: 50px;
     color: white;
-    text-align: center;
+    
 }
 a {
     color: aquamarine;
     text-decoration: underline;
+    
+}
+.guide {
+ font-weight: 800; 
+ font-size: 42px;
+ color: white;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.points-of-interest {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 21px;
+color: gray;
 }
