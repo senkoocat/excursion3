@@ -10,6 +10,7 @@ html {
   body {
       background-color: black;
       text-align: center;
+      justify-content: center;
   }
 header {
     font-size: 50px;
@@ -20,6 +21,22 @@ a {
     color: aquamarine;
     text-decoration: underline;
     
+}
+.mobile {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+.container {
+  width: 25%;
+  height: 700px;
+  overflow: hidden;
+  
+}
+.mobile video {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 .guide {
  font-weight: 800; 
@@ -32,3 +49,26 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 21px;
 color: gray;
 }
+.camp {
+  width: auto;
+  height: 500px;
+   
+}
+.icon {
+  width: auto;
+  height: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .soon {
+    font-size: 50px;
+    color: white; 
+  }
+  .copyright {
+    font-size: 21px;
+    color: gray;
+    text-align: right;
+  }
+  .far fa-copyright {
+    color: gray; 
+  }
